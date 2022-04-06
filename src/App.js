@@ -19,7 +19,7 @@ function App() {
             <Route path="/add" element={<AddBook />} exact />
             <Route path="/books" element={<Books />} exact />
             <Route path="/about" element={<About />} exact />
-            <Route path="/books/:bid" element={<BookDetails />} exact />
+            <Route path="/books/:bookId" element={<BookDetails />} exact />
             {/* update book by bid,
              1)go tourl
               2)go to <BookDetails />
