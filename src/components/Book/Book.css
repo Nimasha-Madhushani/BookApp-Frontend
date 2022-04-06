@@ -19,17 +19,17 @@ li {
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
-  width: 30%;
+  width: 20%;
   margin-right: 20px;
   height: 100%;
   box-shadow: 5px 5px 10px #ccc;
   align-items: center;
 }
 
-.card > img {
-  height: 50%;
-  width: 100%;
-}
+/* .card > img {
+  height: 20%;
+  width: 20%;
+} */
 
 .card h3 {
   padding: 5px;
@@ -45,4 +45,9 @@ li {
 }
 .card h3 {
   padding: 4px;
+}
+
+img{
+  height: 100px;
+  width: 100px;
 }
