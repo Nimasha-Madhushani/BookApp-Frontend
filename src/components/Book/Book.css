@@ -1,0 +1,48 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 10px;
+  width: 250px;
+  max-width: 250px;
+  max-height: 400px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  width: 30%;
+  margin-right: 20px;
+  height: 100%;
+  box-shadow: 5px 5px 10px #ccc;
+  align-items: center;
+}
+
+.card > img {
+  height: 50%;
+  width: 100%;
+}
+
+.card h3 {
+  padding: 5px;
+  margin: 0;
+}
+
+.card p {
+  padding: 3px;
+}
+
+.card article {
+  padding: 5px;
+}
+.card h3 {
+  padding: 4px;
+}
