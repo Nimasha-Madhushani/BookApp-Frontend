@@ -6,6 +6,10 @@ import Books from "./components/Book/Books";
 import BookDetails from "./components/Book/BookDetails";
 import About from "./components/About";
 
+import SortableComponent from "./components/MultiSelect/SortableComponent"
+import Multi from "./components/MultiSelect/Multi";
+import MultiNew from "./components/MultiSelect/MultiNew";
+
 function App() {
   return (
     <div>
@@ -20,13 +24,7 @@ function App() {
             <Route path="/books" element={<Books />} exact />
             <Route path="/about" element={<About />} exact />
             <Route path="/books/:bookId" element={<BookDetails />} exact />
-            {/* update book by bid,
-             1)go tourl
-              2)go to <BookDetails />
-              3)component will fetch id from the database via the get request
-              4)render all details
-              me bid ekama BookDetails wlat tyenna oni const id = useParams().bid;
-                */}
+            <Route path="/multi" element={<MultiNew />} exact />
           </Routes>
         </main>
       </Router>
