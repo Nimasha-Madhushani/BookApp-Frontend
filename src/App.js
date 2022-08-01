@@ -6,8 +6,6 @@ import Books from "./components/Book/Books";
 import BookDetails from "./components/Book/BookDetails";
 import About from "./components/About";
 
-import SortableComponent from "./components/MultiSelect/SortableComponent"
-import Multi from "./components/MultiSelect/Multi";
 import MultiNew from "./components/MultiSelect/MultiNew";
 
 function App() {
